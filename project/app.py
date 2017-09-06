@@ -12,14 +12,14 @@ app = Flask(__name__)
 app.debug = True
 
 page = {
-    'title': '',
-    'title_twitter': ''.decode('utf-8'),
-    'url': '',
-    'description': '',
-    'author': '',
-    'datestamp': '2017-07-',
-    'keywords': '',
-    'keywords_array': '',
+    'title': 'MTA Budget: Where does the money come from?',
+    'title_twitter': 'Where does the MTA’s money come from?'.decode('utf-8'),
+    'url': 'http://interactive.nydailynews.com/project/mta-funding/',
+    'description': 'It costs the MTA more than $15 billion a year to run 24/7. Who ultimately pays for the service New Yorkers get?',
+    'author': '"Dan Rivoli", "Interactive Project"',
+    'datestamp': '2017-09-07',
+    'keywords': 'MTA, New York City, subway, budget, money',
+    'keywords_array': '"mta","new york city","subway","budget", "money"',
     'shareimg': '',
     'shareimg_static': '',
     'shareimgdesc': '',
@@ -32,10 +32,6 @@ with app.app_context():
 
 @app.route('/')
 def index():
-    app.page['title'] = ''.decode('utf-8')
-    app.page['description'] = ''.decode('utf-8')
-    app.page['keywords'] = ''.decode('utf-8')
-
     response = {
         'app': app,
     }
