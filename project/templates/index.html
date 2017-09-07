@@ -27,12 +27,7 @@
     The latest in <a href="http://www.nydailynews.com/tags/mta">Daily News MTA news</a>: 
     <strong id="latest-news-headline"></strong>
 </p>
-
-<noscript>
-    <p>
-        <strong>{{response.latest|safe}}</strong>
-    </p>
-</noscript>
+<script onload="document.getElementById('latest-news-headline').innerHTML=hed;" src="http://interactive.nydailynews.com/project/mta-funding/tag-mta-1.js"></script>
 
 {% include 'includes/ad02.html' %}
 
