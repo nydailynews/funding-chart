@@ -20,8 +20,8 @@ page = {
     'datestamp': '2017-09-07',
     'keywords': 'MTA, New York City, subway, budget, money',
     'keywords_array': '"mta","new york city","subway","budget", "money"',
-    'shareimg': '',
-    'shareimg_static': '',
+    'shareimg': 'http://interactive.nydailynews.com/project/mta-funding/static/img/mta-funding-pizza-rat.gif',
+    'shareimg_static': 'http://interactive.nydailynews.com/project/mta-funding/static/img/mta-funding-static.jpg',
     'shareimgdesc': '',
 }
 
