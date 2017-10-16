@@ -17,7 +17,7 @@ page = {
     'url': 'http://interactive.nydailynews.com/project/mta-funding/',
     'description': 'It costs the MTA more than $15 billion a year to run 24/7. Who ultimately pays for the service New Yorkers get?',
     'author': '"Dan Rivoli", "Interactive Project"',
-    'datestamp': '2017-09-07',
+    'datestamp': '2017-10-16',
     'keywords': 'MTA, New York City, subway, budget, money',
     'keywords_array': '"mta","new york city","subway","budget", "money"',
     'shareimg': 'http://interactive.nydailynews.com/project/mta-funding/static/img/mta-funding-pizza-rat.gif',
