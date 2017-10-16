@@ -21,6 +21,7 @@ page = {
     'keywords': 'MTA, New York City, subway, budget, money',
     'keywords_array': '"mta","new york city","subway","budget", "money"',
     'shareimg': 'mta-funding-pizza-rat.gif',
+    'sharevideo': 'mta-funding-pizza-rat.mp4',
     'shareimg_static': 'mta-funding-static.jpg',
     'shareimgdesc': 'An illustration of a pile of money with the words "Where does the MTA money come from?" and an animation of a rat dragging a piece of a pizza.',
 }
