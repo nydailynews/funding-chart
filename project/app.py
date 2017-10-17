@@ -16,13 +16,14 @@ page = {
     'title_twitter': 'Where does the MTA’s money come from?'.decode('utf-8'),
     'url': 'http://interactive.nydailynews.com/project/mta-funding/',
     'description': 'It costs the MTA more than $15 billion a year to run 24/7. Who ultimately pays for the service New Yorkers get?',
-    'author': '"Dan Rivoli", "Interactive Project"',
+    'author': '"Dan Rivoli", "Interactive Project", "Kelli R. Parker"',
     'datestamp': '2017-10-16',
     'keywords': 'MTA, New York City, subway, budget, money',
     'keywords_array': '"mta","new york city","subway","budget", "money"',
     'shareimg': 'mta-funding-pizza-rat.gif',
+    'sharevideo': 'mta-funding-pizza-rat.mp4',
     'shareimg_static': 'mta-funding-static.jpg',
-    'shareimgdesc': '',
+    'shareimgdesc': 'An illustration of a pile of money with the words "Where does the MTA money come from?" and an animation of a rat dragging a piece of a pizza.',
 }
 
 with app.app_context():
