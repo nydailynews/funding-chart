@@ -42,10 +42,10 @@ def index():
 def last_update(blank):
     """ Returns the current date. That means every time the project is deployed,
         the datestamp will update.
-        Returns a formatted date object, ala "Friday Feb. 20"
+        Returns a formatted date object, ala "Feb. 20, 2018"
         """
     today = date.today()
-    return today.strftime('%A %B %d')
+    return today.strftime('%B %d, %Y')
 
 @app.template_filter(name='timestamp')
 def timestamp(blank):

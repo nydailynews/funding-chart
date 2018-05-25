@@ -23,7 +23,6 @@
 
     <!-- KEYWORD -->
     <meta name="keywords" content="{{response.app.page.keywords}}" />
-    <meta name="news_keywords" content="{{response.app.page.keywords}}" />
 
     <!-- LINK -->
     <link rel="canonical" href="{{response.app.page.url}}">
@@ -100,14 +99,14 @@
     </script>
     
     <!-- ADS-START -->
-    <script src="/includes/ads/ads.js" onload="nydn_ads('project');"></script>
+    <script src="/includes/template/template.js" onload="nydn_ads('project');"></script>
     <!-- ADS-END -->
 
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
-    <link rel="stylesheet" type="text/css" href="{{response.app.url_root}}static/css/style.css">
+    <link rel="stylesheet" href="//interactive.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" href="//interactive.nydailynews.com/nydn/c/ra.css">
+    <link rel="stylesheet" href="{{response.app.url_root}}static/css/style.css">
 
-    <style type="text/css">
+    <style>
 {% block style %}{% endblock style %}
     </style>
     
